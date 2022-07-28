@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 10px;
+}
+nav a{
+     text-decoration: none;
+     color: black;
+     display: inline-block;
+     padding: 10px 20px;
+     letter-spacing: 3px;
+}
+nav a:hover{
+    background-color: #ccc;
+}
+nav .logoname
+{
+    float: left;
+}
+nav .spanlink{
+    float: right;
+}
+.clear{
+    clear: both;
+    content: " ";
+}
+
+/*******************************/
+header{
+    position: relative;
+}
+header h1{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: grey;
+    letter-spacing: 4px;
+}
+#firstsection,#secondsection{
+    padding: 60px;
+}
+.lefts
+{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.lefts img{
+  margin-right: 50px;
+  width: 90%;
+   
+}
+.rights{
+    width: 50%;
+    float: right;
+}
+.divtitle{
+ text-align: center;
+ padding: 40px;
+ letter-spacing: 4px;
+}
+
+.rights p{
+    line-height: 2;
+    padding: 20px;
+    font-size: 18px;
+}
+.title{
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+.lefts .title{
+    text-align: left;
+}
+.lefts .descrition{
+    padding: 20px 0px 45px;
+    text-align: left;
+    font-size: 15px;
+    color: grey;
+}
+.rights .secondp{
+    color: grey;
+}
+hr{
+   
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+/**********************/
+footer{
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+
+}
+footer p{
+    padding: 20px 0px;
+}
+footer .anothercolor{
+    color: #607D8B;
+    font-weight: bold;
+}
+form{
+    
+}
+form input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+form button{
+    background-color: #ccc;
+    border: none;
+    font-size: 18px;
+    padding:10px;
+}
+#bottom{
+    text-align: center;
+    padding: 60px;
+    background-color: #ccc;
+}
+@media screen and (max-width : 600px){
+
+    nav a{
+        float: none;
+        padding: 10px;
+    }
+   .lefts,.rights{
+    width: 100%;
+    float: none;
+  
+   }
+    
+}
